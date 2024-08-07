@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(idyllic-rural-scene-green-meadow-sunset-sky-generative-ai.jpg);
+    background-size: cover;
+}
+.name{
+    color: azure;
+}
+
+form{
+    height: 400px;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 7rem;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    animation: rotate 2s linear 3s infinite normal;
+
+}
+
+.mb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+a{
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    cursor: pointer;
+}
+.text{
+    margin: 1rem;
+    font-size: 20px;
+}
+.login{
+    font-size: 35px;
+    color: red;
+    text-shadow: 0 0 20px red,0 0 40px red;
+    animation: blink 4s linear 3s infinite normal;
+}
+@keyframes blink {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+form:hover{
+    backdrop-filter: blur(20px);
+}
+.mb-1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+}
+form button:hover{
+    margin-top: 2rem;
+}
+#email{
+    margin-left: 100px;
+}
+#eyeIcon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: 17rem;
+}
+#eyeIcon:hover{
+         cursor: pointer;
+}
+#user{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: 4.3rem;
+}
+#lock{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-right: 21.5rem ;
+}
+
+input{
+    
+    width: 300px;
+    
+    font-size: 20px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid black;
+    
+}
+
+button{
+    height: 40px;
+    width: 90px;
+    margin-top: 4rem;
+    margin-left: 13rem ;
+    background: #03e9f4;
+    border: 1px solid #03e9f4;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4,
+    0 0 25px #03e9f4, 0 0 100px #03e9f4
+}
+button:hover{
+    color: red;
+    cursor: pointer;
+}
+input::placeholder{
+    color: white;
+}
